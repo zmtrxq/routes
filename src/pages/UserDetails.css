@@ -1,0 +1,41 @@
+.user-details {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.user-details__loading {
+  font-size: 20px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.user-details__back {
+  padding: 10px 25px;
+  margin-bottom: 25px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.user-details__back:hover {
+  background: rgb(100, 100, 255);
+}
+
+.user-details__info {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 30px 35px;
+}
+
+.user-details__field {
+  margin-top: 10px;
+  color: rgb(50, 50, 50);
+}
+
+.user-details__label {
+  color: black;
+}

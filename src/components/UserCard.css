@@ -1,0 +1,29 @@
+.user-card {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 25px 30px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-10px);
+}
+.user-card__field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-card__button {
+  padding: 10px 30px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.user-card__button:hover {
+  background: rgb(100, 100, 255);
+}
